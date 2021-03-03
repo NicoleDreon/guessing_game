@@ -2,15 +2,11 @@
 import random
 tries = 0
 x = random.randint(1, 100)
-# print(.format(x))
-# def random_number(x):
-    
-# from random import random_number
 
 print('Hello, player')
 name = input("What is your name?   ")
 print(f"Hello, {name}")
-# guess = input("Guess a number between 1 and 100?  ")
+
 
 while True:
   guess = input("Your guess? ")
